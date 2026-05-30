@@ -1,236 +1,92 @@
-# 📘 Java Learning Roadmap (Complete Guide)
+# Java Tutorial Topics
 
-This document covers **Java from Basics to Advanced**, suitable for:
-- Beginners
-- Backend developers
-- Interview preparation
-- Real-world project development
-
----
-
-## 🟢 1. Java Basics (Foundation)
-
-### Core Concepts
-- What is Java?
-- Features of Java
-- JVM vs JRE vs JDK
-- Java Program Structure
-- `main()` method
-- Variables & Constants
-- Data Types
-- Type Casting
-- Operators
-
-### Control Statements
-- `if`, `else`, `else-if`
-- `switch`
-- Loops:
-  - `for`
-  - `while`
-  - `do-while`
-- `break`, `continue`
-
-### Input / Output
-- `Scanner`
-- `BufferedReader`
-
----
-
-## 🟢 2. Object-Oriented Programming (OOPS) ⭐
-
-### Core OOPS Concepts
-- Class & Object
-- Constructors
-- `this` keyword
-- `static` keyword
-- Method Overloading
-- Method Overriding
-- Inheritance
-- Polymorphism
-- Abstraction
-- Encapsulation
-
-### Advanced OOPS
-- Interfaces
-- Abstract Classes
-- `final` keyword
-- Association
-- Aggregation
-- Composition
-- Object Lifecycle
-- `equals()` & `hashCode()`
-- `toString()`
-
----
-
-## 🟢 3. Exception Handling
-
-- What is an Exception?
-- Checked vs Unchecked Exceptions
-- `try`, `catch`, `finally`
-- Multiple `catch`
-- `throw` vs `throws`
-- Custom Exceptions
-- Exception best practices
-
----
-
-## 🟢 4. Java Collections Framework ⭐
-
-### Core Interfaces
-- `List`
-  - `ArrayList`
-  - `LinkedList`
-- `Set`
-  - `HashSet`
-  - `LinkedHashSet`
-  - `TreeSet`
-- `Map`
-  - `HashMap`
-  - `LinkedHashMap`
-  - `TreeMap`
-
-### Concepts
-- Iteration (`Iterator`, `for-each`)
-- Comparable vs Comparator
-- Sorting
-- Performance comparison
-- Immutable collections
-
----
-
-## 🟢 5. Multithreading & Concurrency ⭐
-
-### Thread Basics
-- What is a Thread?
-- `Thread` class
-- `Runnable` interface
-- Thread lifecycle
-- `start()` vs `run()`
-
-### Synchronization
-- `synchronized` keyword
-- Locks
-- Deadlock
-- Inter-thread communication
-  - `wait()`
-  - `notify()`
-  - `notifyAll()`
-
-### Advanced Concurrency
-- Executor Framework
-- Thread Pool
-- Callable & Future
-- `volatile`
-- Atomic variables
-- Concurrency utilities:
-  - `CountDownLatch`
-  - `Semaphore`
-
----
-
-## 🟢 6. File Handling & I/O
-
-### Traditional I/O
-- `File` class
-- `FileReader`, `FileWriter`
-- `BufferedReader`, `BufferedWriter`
-- `InputStream`, `OutputStream`
-
-### NIO (Modern I/O)
-- `Path`
-- `Files`
-- Channels
-- `ByteBuffer`
-
----
-
-## 🟢 7. Java 8+ Features ⭐
-
-### Functional Programming
-- Lambda Expressions
-- Functional Interfaces
-- Method References
-
-### Stream API
-- `map()`
-- `filter()`
-- `reduce()`
-- `collect()`
-- `groupingBy()`
-- `parallelStream()`
-
-### Other Features
-- `Optional`
-- `forEach()`
-- Default methods in interfaces
-- Date & Time API:
-  - `LocalDate`
-  - `LocalTime`
-  - `LocalDateTime`
-
----
-
-## 🟢 8. JVM Internals & Memory Management ⭐
-
-- JVM Architecture
-- Class Loader
-- Heap vs Stack
-- Garbage Collection
-- Types of GC
-- Memory Leaks
-- `finalize()` (deprecated)
-
----
-
-## 🟢 9. Design Patterns
-
-### Common Patterns
-- Singleton
-- Factory
-- Builder
-- Observer
-- Strategy
-- DAO
-- MVC
-
----
-
-## 🟢 10. Java + Database (JDBC)
-
-- JDBC Architecture
-- JDBC Drivers
-- Database Connection
-- `Statement` vs `PreparedStatement`
-- `ResultSet`
-- Transactions
-- Connection Pooling
-
----
-
-## 🟢 11. Testing & Build Tools
-
-### Testing
-- JUnit
-- Mockito
-
-### Build & Logging
-- Maven
-- Gradle
-- SLF4J
-- Logback
-
----
-
-## 🟢 12. Real-World Java (Backend Path)
-
-- Spring Core
-- Spring Boot
-- REST APIs
-- JPA / Hibernate
-- Microservices basics
-
----
-
-## 🔥 Recommended Learning Order
-
+- 01_introduction.java
+- 02_keywords_identifiers.java
+- 03_variables.java
+- 04_constants.java
+- 05_data_types.java
+- 06_type_casting.java
+- 07_input_output.java
+- 08_arithmetic_operators.java
+- 09_relational_operators.java
+- 10_logical_operators.java
+- 11_assignment_operators.java
+- 12_increment_decrement.java
+- 13_ternary_operator.java
+- 14_bitwise_operators.java
+- 15_if_else_statements.java
+- 16_switch_case.java
+- 17_for_loop.java
+- 18_while_loop.java
+- 19_do_while_loop.java
+- 20_break_continue.java
+- 21_methods_basics.java
+- 22_method_overloading.java
+- 23_recursion.java
+- 24_arrays_1d.java
+- 25_arrays_2d.java
+- 26_array_operations.java
+- 27_strings.java
+- 28_stringbuilder.java
+- 29_wrapper_classes.java
+- 30_enums.java
+- 31_classes_objects.java
+- 32_constructors.java
+- 33_this_keyword.java
+- 34_static_keyword.java
+- 35_final_keyword.java
+- 36_encapsulation.java
+- 37_inheritance.java
+- 38_method_overriding.java
+- 39_polymorphism.java
+- 40_abstraction.java
+- 41_interfaces.java
+- 42_abstract_classes.java
+- 43_packages.java
+- 44_access_modifiers.java
+- 45_object_class.java
+- 46_exception_handling.java
+- 47_custom_exceptions.java
+- 48_file_handling.java
+- 49_serialization.java
+- 50_generics.java
+- 51_arraylist.java
+- 52_linkedlist.java
+- 53_stack.java
+- 54_queue.java
+- 55_priorityqueue.java
+- 56_hashset.java
+- 57_linkedhashset.java
+- 58_treeset.java
+- 59_hashmap.java
+- 60_linkedhashmap.java
+- 61_treemap.java
+- 62_collections_utility.java
+- 63_comparable_comparator.java
+- 64_iterators.java
+- 65_lambda_expressions.java
+- 66_functional_interfaces.java
+- 67_stream_api.java
+- 68_optional.java
+- 69_method_references.java
+- 70_date_time_api.java
+- 71_threads_basics.java
+- 72_runnable_interface.java
+- 73_thread_lifecycle.java
+- 74_synchronization.java
+- 75_locks_reentrantlock.java
+- 76_executor_service.java
+- 77_callable_future.java
+- 78_completable_future.java
+- 79_concurrent_collections.java
+- 80_jdbc_basics.java
+- 81_jdbc_crud.java
+- 82_connection_pooling.java
+- 83_annotations.java
+- 84_reflection.java
+- 85_records.java
+- 86_sealed_classes.java
+- 87_project_student_management.java
+- 88_project_employee_management.java
+- 89_project_bank_system.java
+- 90_project_library_management.java
